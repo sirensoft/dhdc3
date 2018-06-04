@@ -1,0 +1,2 @@
+﻿1) แตกไฟล์ไว้ที่ dhdc3/modules/gis
+2) กรณีติดตั้งโมดูล gis ใหม่ เพิ่มคำสั่ง 'gis' => ['class' => 'modules\gis\Gis'],ที่ไฟล์ dhdc3/add_modules.php

@@ -1,0 +1,66 @@
+{
+  "_from": "leaflet-search",
+  "_id": "leaflet-search@2.7.2",
+  "_inBundle": false,
+  "_integrity": "sha1-IUmbUc8IqrcrrjkjsyHnGjecUhU=",
+  "_location": "/leaflet-search",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "leaflet-search",
+    "name": "leaflet-search",
+    "escapedName": "leaflet-search",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/leaflet-search/-/leaflet-search-2.7.2.tgz",
+  "_shasum": "21499b51cf08aab72bae3923b321e71a379c5215",
+  "_spec": "leaflet-search",
+  "_where": "D:\\xampp4\\htdocs\\gis\\jgis",
+  "author": {
+    "name": "Stefano Cudini",
+    "email": "stefano.cudini@gmail.com",
+    "url": "http://labs.easyblog.it/"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanocudini/leaflet-search/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "leaflet": "*"
+  },
+  "deprecated": false,
+  "description": "Leaflet Control for searching markers/features by attribute on map or remote searching in jsonp/ajax",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-cssmin": "^0.7.0",
+    "grunt-contrib-jshint": "^0.7.2",
+    "grunt-contrib-uglify": "^0.2.7",
+    "grunt-contrib-watch": "^0.5.3",
+    "grunt-remove-logging": "^0.2.0",
+    "grunt-todos": "^0.2.0"
+  },
+  "homepage": "http://labs.easyblog.it/maps/leaflet-search/",
+  "keywords": [
+    "gis",
+    "map",
+    "leaflet"
+  ],
+  "license": "MIT",
+  "main": "dist/leaflet-search.src.js",
+  "name": "leaflet-search",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stefanocudini/leaflet-search.git"
+  },
+  "version": "2.7.2"
+}

@@ -1,0 +1,20 @@
+*** กรณีอัพเดท ข้ามข้อ 3,4 ไปได้เลย ****
+
+
+1)  แตกไฟล์ dhdc3/modules/
+
+2) restore ฐานข้อมูล  ในโฟร์เดอร์ dhdc3/modules/Unitcost/database ไฟล์ dhdc_module_unitcost.sql เข้าฐาน
+
+3)  เพิ่มคำสั่งด้านล่างที่ไฟล์  /dhdc3/modules/add_modules.php
+    'Unitcost' => [
+        'class' => 'modules\Unitcost\Unitcost',
+    ],
+
+4) จัดการระบบ - plugin - เพิ่ม
+Name = Unitcost
+Module Name  = Unitcost
+Routing =  /Unitcost/default/index
+Type = Module
+Status = On
+
+5) จัดการระบบ - ประมวลผล - 1) transform

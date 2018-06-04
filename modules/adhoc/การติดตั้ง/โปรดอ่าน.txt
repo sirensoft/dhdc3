@@ -1,0 +1,13 @@
+1) restore ไฟล์  dhdc_adhoc.sql
+
+2) แตกไฟล์ที่ /dhdc3/modules/adhoc
+
+3) เพิ่มคำสั่งด้านล่าง ในไฟล์ dhdc3/modules/add_modules.php 
+'adhoc' => ['class' => 'modules\adhoc\Adhoc'],
+
+4)จัดการระบบ - plugins - เพิ่ม  
+Name  =  QOF-2561
+Module Name =  Adhoc
+Routing = /adhoc/default/index
+Type = Module
+Status = On 
