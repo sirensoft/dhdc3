@@ -3,15 +3,11 @@
 
 <p><b>ขั้นตอนการเตรียมระบบ และการดาวน์โหลด</b>
 <p>(1) #cd webroot
-<p>(2) #wget http://203.157.118.123/dhdc3/dhdc3.zip
+<p>(2) #wget  http://61.19.22.108/dhdc3.zip
 <p>(3) #unzip dhdc3.zip
-<p>(4) #cd dhdc3
-<p>(5) #wget http://203.157.118.123/dhdc3/vendor.zip
-<p>(6) #unzip vendor.zip
-<p>(7) #cd ..
-<p>(8) #chmod -R 0777 dhdc3
-<p>(9) download  http://203.157.118.123/dhdc3/databases.zip
-<p>(10) Linux OS แก้ไข httpd.conf  ส่วน AllowOverRide  All
+<p>(4) #chmod -R 0777 dhdc3
+<p>(5) download   http://61.19.22.108/databases.zip
+<p>(6) Linux OS แก้ไข httpd.conf  ส่วน AllowOverRide  All
 <hr>
 <p> <b>ขั้นตอนการติดตั้งระบบ</b>
 <p>(1) สร้างฐานชื่อ dhdc3 กำหนด Collation เป็น utf8_general_ci (กรณี upgrade จาก dhdc2 ข้ามไปข้อ 2 )
