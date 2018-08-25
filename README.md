@@ -7,7 +7,7 @@
 <p>(3) #unzip dhdc3.zip
 <p>(4) #chmod -R 0777 dhdc3
 <p>(5) download   http://61.19.22.108/databases.zip
-<p>(6) Linux OS แก้ไข httpd.conf เพิ่ม AllowOverRide  All ใน <Directory "/var/www/html">
+<p>(6) Linux OS แก้ไข httpd.conf เพิ่ม AllowOverRide  All ใน "<Directory /var/www/html>"
 <hr>
 <p> <b>ขั้นตอนการติดตั้งระบบ</b>
 <p>(1) สร้างฐานชื่อ dhdc3 กำหนด Collation เป็น utf8_general_ci (กรณี upgrade จาก dhdc2 ข้ามไปข้อ 2 )
